@@ -1,0 +1,70 @@
+name: changebackgrond_frontend
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.4
+  video_player: ^2.7.2
+  provider: ^6.0.5
+  animated_background: ^2.0.0
+  video_thumbnail: ^0.5.0
+  dio: ^5.3.3
+  path: ^1.8.2
+  path_provider: ^2.0.12
+  flutter_downloader: ^1.10.1+2
+  external_path: ^1.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  fonts:
+    - family: Agustina
+      fonts:
+      - asset: assets/agustina/agustina.otf
+
+    - family: Oswald
+      fonts:
+      - asset: assets/Oswald/Oswald-Bold.ttf
+        weight: 700
+      - asset: assets/Oswald/Oswald-SemiBold.ttf
+        weight: 500
+      - asset: assets/Oswald/Oswald-Medium.ttf
+        weight: 400
+      - asset: assets/Oswald/Oswald-Regular.ttf
+        weight: 300
+      - asset: assets/Oswald/Oswald-ExtraLight.ttf
+        weight: 200
+      - asset: assets/Oswald/Oswald-Light.ttf
+        weight: 100
+
+    - family: Quicksand
+      fonts:
+      - asset: assets/Quicksand/Quicksand-Bold.ttf
+        weight: 700
+      - asset: assets/Quicksand/Quicksand-SemiBold.ttf
+        weight: 500
+      - asset: assets/Quicksand/Quicksand-Medium.ttf
+        weight: 400
+      - asset: assets/Quicksand/Quicksand-Regular.ttf
+        weight: 300
+      - asset: assets/Quicksand/Quicksand-Light.ttf
+        weight: 100
+
+
